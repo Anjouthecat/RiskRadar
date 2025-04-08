@@ -19,7 +19,7 @@
     <!-- Home -->
     <section class="screen active" id="home-screen">
       <div class="home"><img src="logo.png" alt="RiskRadar Logo" class="logo-img"/>
-        
+
         <h3>Welcome!</h3>
         <p>Sharpen your instincts and learn how to spot scams 💡</p>
         <button class="btn pink" onclick="goToLevels()">Start Game</button>
@@ -32,7 +32,7 @@
 
     <!-- Levels -->
     <section class="screen" id="levels-screen">
-      <h2>Choose a Level</h2>
+      <h2>Choose a category</h2>
       <button class="btn level" onclick="startLevel('phishing')">🎣 Phishing</button>
       <button class="btn level" onclick="startLevel('romance')">💘 Romance Scam</button>
       <button class="btn level" onclick="startLevel('shopping')">🛍️ Online Shopping</button>
@@ -40,11 +40,11 @@
 
     <!-- Game -->
     <section class="screen" id="game-screen">
-      <h3 id="level-title">Level</h3>
+      <h3 id="level-title">Categories</h3>
       <p id="scenario-text"></p>
       <div class="choices">
         <button class="btn danger" onclick="answer('scam')">⚠️ Scam</button>
-        <button class="btn safe" onclick="answer('real')">✅ Real</button>
+        <button class="btn safe" onclick="answer('real')">✅ Safe</button>
       </div>
     </section>
 
@@ -60,7 +60,7 @@
     <!-- Nav -->
     <footer class="nav">
       <button class="nav-btn" onclick="goToHome()">🏠 Home</button>
-      <button class="nav-btn" onclick="goToLevels()">📊 Levels</button>
+      <button class="nav-btn" onclick="goToLevels()">📊 Categories</button>
     </footer>
 
     <audio id="click-sound" src="click.mp3" preload="auto"></audio>
