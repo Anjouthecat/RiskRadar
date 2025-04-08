@@ -9,17 +9,41 @@ const failSound = document.getElementById('fail-sound');
 const scenarios = {
   phishing: {
     title: "🎣 Phishing",
-    text: "Click here to verify your bank account now!",
+    text:`Subject: 🚨 Urgent: Account Verification Required
+
+Dear Guinievre,
+
+We detected suspicious activity on your bank account. Please verify your identity to avoid temporary suspension.
+Click here to secure your account: [bit.ly/secure-now]
+
+Your Security Team`,
+
     correct: "scam"
   },
   romance: {
     title: "💘 Romance Scam",
-    text: "I love you. Please send money for a flight ticket ❤️",
+    text: `Hey gorgeous 💕
+
+I can’t stop thinking about you. I’ve never felt this close to someone online before.
+
+I was planning to fly over next month but I just had an unexpected issue with my card 😞
+
+Could you help me cover the flight? I’ll pay you back as soon as I arrive. You’re the only one I trust.
+
+🥺💖 – Alex`,
+
     correct: "scam"
   },
   shopping: {
     title: "🛍️ Online Shopping",
-    text: "Flash deal: iPhone 14 for $100! Limited time.",
+    text: `FLASH SALE – 90% OFF! 👜👠
+
+Limited time only: Designer bags from €800 down to €49.99!
+
+Only 3 left! Secure yours now 👉 [lux-shop-deal.vip]
+
+Trusted by over 10,000 customers worldwide 💎`,
+
     correct: "scam"
   }
 };
