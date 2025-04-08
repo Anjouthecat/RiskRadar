@@ -26,7 +26,7 @@ Your Security Team`,
 
 I can’t stop thinking about you. I’ve never felt this close to someone online before.
 
-I was planning to fly over next month but I just had an unexpected issue with my card 😞
+I was planning to fly over next month but I just had an unexpected issues with my card 😞
 
 Could you help me cover the flight? I’ll pay you back as soon as I arrive. You’re the only one I trust.
 
